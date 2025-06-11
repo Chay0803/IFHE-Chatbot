@@ -1,0 +1,45 @@
+# ✅ Virtual environment
+venv/
+
+# ✅ Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ✅ Environment variables
+.env
+
+# ✅ Log files
+*.log
+
+# ✅ System files
+.DS_Store
+Thumbs.db
+
+# ✅ Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# ✅ Jupyter
+.ipynb_checkpoints/
+
+# ✅ Local configuration (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# ✅ Temporary and backup files
+*.bak
+*.swp
+
+# ✅ Project-specific
+data/
+cache/
+hf_cache/
+
+venv/
+*.dll
+*.lib
+*.pdf
